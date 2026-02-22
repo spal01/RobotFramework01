@@ -7,4 +7,3 @@ Launch Browser
     ${title}=    Get Title
     Should Be Equal    ${title}    Google
     Log    Browser launched successfully with title: ${title}
-    Close Browser
